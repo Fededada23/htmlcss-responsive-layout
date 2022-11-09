@@ -16,6 +16,9 @@
 .flex-wrap{
     flex-wrap: wrap;
 }
+.text-align-center{
+    text-align: center;
+}
 
 .align-items{
     align-items: center;
@@ -26,19 +29,17 @@
 }
 
 .purple{
-    background-color: plum
+    background-color: #9593e6
 }
 
 .lightskyblue{
     background-color: lightskyblue;
-    height: 300px;
+    
 }
 
-
-
-
-
-
+.black{
+    color: black;
+}
 
 
 
@@ -47,6 +48,43 @@ header{
     background-color: #3984ff;
     display: flex;
     justify-content: space-between;
+}
+
+h1{
+    padding: 30px 0;
+    font-size: 50px;
+}
+
+h2, h3{
+    padding: 20px 0;
+}
+
+
+p{
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+button{
+    border: 1px solid white;
+    color: white;
+    margin: 20px 0;
+    padding: 10px;
+    text-align: center;
+    background-color: #3984ff; 
+    border-radius: 100%;   
+}
+
+img{
+    width: 100%;
+}
+
+.card{
+    border-radius: 30px;
+}
+
+.col-50 button{
+    border-radius: 100%;
 }
 
 .logo{
@@ -58,27 +96,118 @@ header{
 }
 
 .col-70, .col-30{
-    min-height: 300px;
+    
     width: 100%;
 }
 
 .col-30{
-    margin: 10px 0;
+    margin: 30px 0;
 }
 
 #middle-one .container{
-    background-color: plum;
+    background-color: #9593e6;
 }
+
 
 .col-50{
     margin-bottom: 30px;
     width: 100%;
 }
 
-img{
-    width: 100%;
-}
-
 .col-25{
     margin-bottom: 30px;
+}
+
+.col-25-second{
+    margin-bottom: 30px;
+}
+
+.col-30 i{
+    font-size: 100px;
+    padding: 20px;
+    color: #3984ff ;
+}
+.col-30 h2{
+    color: #9593e6;
+}
+
+.col-25-second img{
+    width: 50%;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.col-25-second{
+    color: white;
+}
+
+#middle-three .card{
+    text-align: initial;
+    padding: 20px;
+    line-height: 30px;
+}
+
+#middle-three .col-30 h2{
+  font-size: 50px;
+}
+
+#middle-three .col-30 h3{
+    padding: 20px 0;
+    color: #9593e6;
+    font-size: 30px;
+  }
+
+#middle-three button{
+    background-color: #9593e6;
+    padding: 10px 60px;
+    border-radius: 20px;
+}
+
+.col-30 h1{
+    color: white;
+}
+
+#intro .col-30 h2,.col-70 h2{
+    color: #3984ff;
+}
+
+#intro .col-30 p,.col-70 p{
+    line-height: 30px;
+    padding: 20px;
+}  
+#intro .col-70 p{
+    text-align: initial;
+}      
+#intro .col-70 h2{
+    text-align: initial;
+    padding: 20px;
+}      
+
+#intro .col-70 button{
+    padding: 10px 60px;
+    border-radius: 20px;
+}
+
+#middle-one .col-50 h2, #middle-one .col-50 p{
+    color: white;
+    line-height: 30px;
+}
+
+#middle-two .col-25 .card h2{
+    color: #9593e6;
+    font-size: 40px;
+}
+
+#middle-two .col-25 .card .purple p{
+    color: white;
+}
+
+#middle-four .col-50 h2{
+    color: #9593e6;
+    font-size: 50px;
+}
+
+#middle-four img{
+    
+    padding: 0px 130px 0px 0px;
 }
