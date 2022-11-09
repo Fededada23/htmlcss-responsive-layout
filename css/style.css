@@ -11,7 +11,6 @@
 
 .flex-column{
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .flex-wrap{
@@ -22,6 +21,13 @@
     align-items: center;
 }
 
+.white{
+    background-color: white;
+}
+
+.purple{
+    background-color: plum
+}
 
 
 
@@ -56,3 +62,19 @@ header{
     margin: 10px 0;
 }
 
+#middle-one .container{
+    background-color: plum;
+}
+
+.col-50{
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+.col-25{
+    margin-bottom: 30px;
+}
