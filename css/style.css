@@ -72,7 +72,8 @@ button{
     padding: 10px;
     text-align: center;
     background-color: #3984ff; 
-    border-radius: 100%;   
+    border-radius: 100%;
+      
 }
 
 img{
@@ -208,6 +209,20 @@ img{
 }
 
 #middle-four img{
-    
     padding: 0px 130px 0px 0px;
+}
+
+#middle-four .col-50 button{
+    background-color: #9593e6;
+    padding: 10px 60px;
+    border-radius: 20px;
+    
+
+}
+
+#middle-five .col-100 button{
+    background-color: white;
+    padding: 10px 60px;
+    border-radius: 20px;
+    color: #9593e6;
 }
