@@ -29,6 +29,11 @@
     background-color: plum
 }
 
+.lightskyblue{
+    background-color: lightskyblue;
+    height: 300px;
+}
+
 
 
 
@@ -55,7 +60,6 @@ header{
 .col-70, .col-30{
     min-height: 300px;
     width: 100%;
-    background-color: blue;
 }
 
 .col-30{
