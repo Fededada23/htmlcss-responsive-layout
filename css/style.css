@@ -99,6 +99,14 @@ img{
     width: 100%;
     margin: 0 auto;
 }
+
+.cravatta-header{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
 .card{
     border-radius: 30px;
     min-height: 100%;
@@ -358,6 +366,7 @@ img{
     #middle-two .col-25-second .card{
         display: flex;
         align-items: center;
+        padding: 10px;
     }
 
     #middle-two .col-25-second p{
@@ -411,6 +420,10 @@ img{
         display: none;
     }
 
+    .cravatta-header{
+        width: 80%;
+    }
+
     .right-header{
         display: block;
         display: flex;
@@ -424,7 +437,11 @@ img{
 
     }
     
-    
+    .col-100 .card{
+        width: 40%;
+        margin: 0 auto;
+
+    }
     
     
     
