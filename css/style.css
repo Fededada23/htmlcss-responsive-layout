@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 /* UTILITY CLASS */
@@ -41,6 +42,10 @@
     color: black;
 }
 
+.padding-left-20px{
+    padding-left: 20px;
+}
+
 
 
 
@@ -48,6 +53,17 @@ header{
     background-color: #3984ff;
     display: flex;
     justify-content: space-between;
+}
+
+.right-header{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    display: none;
+}
+
+.right-elements{
+   margin: 0px 0px 0px 40px;
 }
 
 h1{
@@ -79,7 +95,10 @@ button{
 img{
     width: 100%;
 }
-
+.cravatta{
+    width: 100%;
+    margin: 0 auto;
+}
 .card{
     border-radius: 30px;
     min-height: 100%;
@@ -97,6 +116,10 @@ img{
 }
 
 .logo{
+    padding: 20px;
+}
+
+.hamburger{
     padding: 20px;
 }
 
@@ -127,6 +150,10 @@ img{
 .col-50-about{
     margin-bottom: 30px;
     width: 60%;
+}
+
+.col-50-about img{
+   border-radius: 100%;
 }
 
 .col-50-about h2{
@@ -241,16 +268,15 @@ img{
     font-size: 20px;
 }
 
-#middle-four img{
-    padding: 0px 130px 0px 0px;
-}
 
 #middle-four .col-50 button{
     background-color: #9593e6;
     padding: 10px 60px;
     border-radius: 20px;
-    
+}
 
+#middle-four .col-50-about img{
+    width: 70%;
 }
 
 #middle-five .col-100 button{
@@ -290,16 +316,17 @@ img{
     .row{
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
     .col-70{
-        width: 70%;
-        margin-left: 30px;
+        width:65%;
+        
         margin-bottom: 30px;
     }
 
     .col-30{
         width: 30%;
-        margin-left: 30px;
+        
         margin-top: 0px;
         min-height: 100%;
 
@@ -308,13 +335,13 @@ img{
 
     #intro img{
         width: 60%;
-        margin-right: 190px;
+        margin-right: 50%;
     }
 
     #intro .col-70 button {
         padding: 10px 60px;
         border-radius: 20px;
-        margin-right: 190px;
+        margin-right: 50%;
     }
 
     
@@ -379,14 +406,69 @@ img{
 }   
 
 @media screen and (min-width: 992px){
+
+    .hamburger{
+        display: none;
+    }
+
+    .right-header{
+        display: block;
+        display: flex;
+        height: 100%;
+        align-items: center;
+    
+    }
+
+    .right-elements{
+        margin: 0px 0px 0px 40px;
+
+    }
+    
+    
+    
+    
+    
+    #intro img{
+        width: 100%;
+        margin-right: 0;
+        height: 50%;
+        margin-top: 100%;
+    }
+
+    #intro .col-70 .card {
+        display: flex;
+    }
+
+    #intro .col-70 .card-one {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    #intro .col-70 .card-two {
+        display: flex;
+    }
+
+    #intro .col-70 button {
+        padding: 10px 60px;
+        border-radius: 20px;
+        margin-right: 0;
+    }
+    
+    
     .row{
         width: 100%;
         margin: 0 auto;
     }
 
     .container{
-        width: 60%;
+        width: 100%;
         margin: 0 auto  ;
+    }
+
+    .cravatta{
+        width: 80%;
+        margin: 0 auto;
     }
 
     
@@ -396,6 +478,27 @@ img{
         flex-direction: row;
     }
 
+    #middle-one .col-50-second img{
+        width: 60%;
+    }
+
+    #middle-one .col-50-second .card{
+        margin-top: 80%;
+        min-height: 0;
+        margin-left: 20%;
+    }
+
+    #middle-one .col-50 .card div{
+       padding-top: 60%;
+    }
+
+    #middle-one .col-50{
+        width: 50%;
+    }
+
+    #middle-one .col-50-second{
+        width: 50%;
+    }
 
 
     #middle-three .col-30{
