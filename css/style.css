@@ -99,7 +99,7 @@ img{
 
 .col-70, .col-30{
     width: 100%;
-    min-height: 500px;
+    min-height: 100%;
 }
 
 .col-30{
@@ -150,8 +150,14 @@ img{
     line-height: 30px;
 }
 
+#middle-three .row{
+    display: flex;
+    flex-direction: column;
+}
+
 #middle-three .col-30 h2{
   font-size: 50px;
+  
 }
 
 #middle-three .col-30 h3{
@@ -164,6 +170,14 @@ img{
     background-color: #9593e6;
     padding: 10px 60px;
     border-radius: 20px;
+}
+
+#middle-three h1{
+    color: white
+
+}
+#middle-three .col-30 .card .white h1{
+    color: #9593e6;
 }
 
 .col-30 h1{
@@ -201,9 +215,7 @@ img{
     font-size: 40px;
 }
 
-#middle-two .col-25 .card .purple p{
-    color: white;
-}
+
 
 #middle-four .col-50 h2{
     color: #9593e6;
@@ -260,7 +272,32 @@ img{
         width: 30%;
         margin-left: 30px;
         margin-top: 0px;
+        min-height: 100%;
 
         
     }
+
+    #middle-two .col-25-second .card{
+        display: flex;
+        align-items: center;
+    }
+
+    #middle-three .row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #middle-three h1{
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    #middle-three .col-30{
+        width: 50%;
+        padding: 10px;
+        margin-left: 0px;
+    }
+
+
 }
