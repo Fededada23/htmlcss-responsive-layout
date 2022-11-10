@@ -306,10 +306,42 @@ img{
         
     }
 
+    #intro img{
+        width: 60%;
+        margin-right: 190px;
+    }
+
+    #intro .col-70 button {
+        padding: 10px 60px;
+        border-radius: 20px;
+        margin-right: 190px;
+    }
+
+    
+    
+    #middle-one .col-50-second img{
+        width: 60%;
+    }
+
+    #middle-one .col-50-second button{
+        background-color: #9593e6;
+        color: black;
+    }
+
     #middle-two .col-25-second .card{
         display: flex;
         align-items: center;
     }
+
+    #middle-two .col-25-second p{
+        text-align: initial;
+    }
+
+    #middle-two .col-25-second img{
+        width: 40%;
+    }
+
+
 
     #middle-three .row{
         flex-direction: row;
@@ -318,7 +350,7 @@ img{
 
     #middle-three h1{
         text-align: center;
-        margin-left: 80px;
+        
     }
 
     #middle-three .col-30{
@@ -345,3 +377,33 @@ img{
         padding: 0%;
     }
 }   
+
+@media screen and (min-width: 992px){
+    .row{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .container{
+        width: 60%;
+        margin: 0 auto  ;
+    }
+
+    
+
+    #middle-one .container .row{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+    #middle-three .col-30{
+        width: 30%;
+    }
+    #middle-three button {
+        background-color: #9593e6;
+        padding: 10px 30%;
+        border-radius: 20px;
+    }
+}
